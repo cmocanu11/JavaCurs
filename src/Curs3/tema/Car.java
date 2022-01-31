@@ -1,0 +1,16 @@
+package Curs3.tema;
+
+public class Car {
+    public static String brand;
+    public static String type = "SUV";
+    public static String engine;
+
+    public Car (String brand, String engine){
+        Car.brand = brand;
+        Car.engine = engine;
+    }
+
+    public static String carDetails(){
+        return "All " + brand + " cars are " + engine + " and are type of " + type;
+    }
+}
